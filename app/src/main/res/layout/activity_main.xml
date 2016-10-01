@@ -7,21 +7,21 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.bits9.activitystates.MainActivity">
+    tools:context="com.example.android.activitystates.MainActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="First Activity"
-        android:id="@+id/textView" />
+        android:text="First Activity" />
 
     <Button
+        android:id="@+id/btnActTwo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Go to Activity Two"
-        android:id="@+id/btnActTwo"
-        android:layout_below="@+id/textView"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="44dp">
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="44dp"
+        android:text="Go to Activity Two">
     </Button>
 </RelativeLayout>
